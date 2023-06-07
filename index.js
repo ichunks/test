@@ -18,3 +18,5 @@ export class Plugin {
     let month = date.getMonth() + 1
   }
 }
+
+export const getTime = () => Date.now()
